@@ -31,3 +31,8 @@ HTML5 / CSS3 / SASS / JavaScript / React
 * Initialiser une application web avec un framework
 * Créer des composants avec React
 
+# Installation
+
+## Premiers pas avec l'application Create React
+Ce projet a été lancé avec [Create React App](https://github.com/facebook/create-react-app)
+
