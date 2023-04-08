@@ -24,3 +24,10 @@ voila [ce fichier JSON](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/
 3. Utilisations des évènements
 4. Utiliser les listes en itérant dessus
 
+### Langages utilisés :
+HTML5 / CSS3 / SASS / JavaScript / React
+### Compétences acquises
+* Développer les routes d'une application web avec React Router
+* Initialiser une application web avec un framework
+* Créer des composants avec React
+
