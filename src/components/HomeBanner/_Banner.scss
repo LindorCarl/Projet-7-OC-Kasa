@@ -1,0 +1,48 @@
+.banner{
+    @include relative;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-bottom: 22px;
+    @include marginLeftRight;
+    @media screen and (max-width:700px){
+        & {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+    & > img {
+        width: 100%;
+        filter: brightness(50%);
+        border-radius: 25px;
+        height: 223px;
+        object-fit: cover;
+    }
+    & > h1 {
+        @include absolute;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 68px;
+        top: 20%;
+        bottom: 69.04%;
+        color: $white;
+        width: 100%;
+        @media screen and (max-width:987px){
+            & {
+                font-size: 24px;
+                line-height: 24px;
+                top: 38%;
+                left: 3%;
+                width: 217px;
+                text-align: start;
+            }
+        }
+        @media screen and (max-width:700px){
+            & {
+                left: 5.88%;
+            }
+        }
+    }
+}
+
+

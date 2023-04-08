@@ -1,0 +1,17 @@
+.about_banner {
+    @include marginLeftRight;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    @media screen and (max-width:700px){
+        & {
+            margin-top: 10px;
+        }
+    }
+    & img{
+        width: 100%;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 25px;
+        filter: brightness(50%);
+    }
+}

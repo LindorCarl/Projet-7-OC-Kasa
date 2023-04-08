@@ -1,0 +1,10 @@
+.box{
+    @include marginLeftRight;
+    display: flex;
+    gap: 50px;
+    @media screen and (max-width:900px) { 
+        & {
+            display: block;
+        }
+    }
+}

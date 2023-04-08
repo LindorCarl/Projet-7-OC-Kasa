@@ -1,0 +1,59 @@
+.nav{
+    display: flex;
+    margin-top: 35px;
+    @include marginLeftRight;
+    height: 68px;
+    @media screen and (max-width:700px){ 
+        & {
+            margin-top: 0.7rem;
+        }
+        &_logo > img {
+            width: 100px;
+            height: 68px;
+        }
+    }
+    &_menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        line-height: 34.22px;
+        color: $lightRed;
+        font-weight: 500;
+        width: 100%;
+        & > :link {
+            width: 165px;
+            text-align: right;
+            align-self: center;
+            font-size: 24px;
+            font-weight: 500;
+            @media screen and (max-width:700px){
+                & {
+                    font-size: 12px;
+                    width: 80px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        & > a {
+            color: $lightRed;
+            text-decoration: none;
+            & :hover{
+                @include underline;
+            }
+        }
+        & a.active {
+            @include underline;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

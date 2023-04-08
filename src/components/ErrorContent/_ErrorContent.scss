@@ -1,0 +1,45 @@
+.error{
+    text-align: center;
+    @include marginLeftRight;
+    & > h2{
+        font-size: 288px;
+        color: $lightRed;
+        margin: 40px 0 0 0;
+        @media  screen and (max-width:700px) {
+            & {
+                font-size: 96px;
+                font-weight: 700;
+                line-height: 137px;
+                margin-top: 12rem;
+            }
+        }
+    }
+    &_text{
+        font-size: 36px;
+        @include fontWeight;
+        color: $lightRed;
+        margin: 25px 0 150px 0;
+        @media  screen and (max-width:700px) {
+            & {
+                font-size: 18px;
+            }
+        }
+    }
+    & :link{
+        text-decoration: none;
+        & :hover{
+            text-decoration: underline;
+        }
+    }
+    &_returnHome {
+        font-size: 18px;
+        @include fontWeight;
+        color: $lightRed;
+        margin-bottom: 50px;
+        @media  screen and (max-width:700px) {
+            & {
+                font-size: 14px;
+            }
+        }
+    }
+}

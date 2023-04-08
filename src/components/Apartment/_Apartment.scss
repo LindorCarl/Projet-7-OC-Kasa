@@ -1,0 +1,30 @@
+.apartment{
+    height: auto;
+    border-radius: 20px;
+    background-color: $lightGray;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 25px;
+    @include marginLeftRight;
+    @media screen and (max-width: 1115px){
+        & {
+            padding-bottom: 22px;
+        }
+    }
+    @media screen and (max-width: 750px){
+        & {
+            padding-bottom: 17px;
+        }
+    }
+    @media screen and (max-width:700px){
+        & {
+            background-color: unset;
+            height: auto;
+            margin-top: 5px;
+        }
+    }
+}
