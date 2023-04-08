@@ -18,3 +18,9 @@ voila [ce fichier JSON](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/
 3. Page à propos contenant différentes informations
 4. Page d'erreur 404 si la route n'existe pas
 5. Design responsive.
+#### Spécifications techniques
+1. Découper en composants modulaires et réutilisables
+2. Structure logique des fichiers
+3. Utilisations des évènements
+4. Utiliser les listes en itérant dessus
+
