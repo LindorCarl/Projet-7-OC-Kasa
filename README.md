@@ -9,7 +9,7 @@ Kasa est dans le métier de la location d’appartements entre particuliers depu
 ### Objectifs :
 Développer l'ensemble de l'application et ses composants avec React, en suivant [les maquettes Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3-0&t=orFKblhMVkLYD4Ie-0) fournies. Des composants réutilisables doivent être créés pour les onglets ouvrants et le carrousel de photo.
 ### Back-end / data :
-voila [ce fichier JSON](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json) pour construire le Front qui correspond.
+Voilà [ce fichier JSON](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json) pour construire le Front qui correspond.
 
 ### Cahiers des charges
 #### Spécifications fonctionnelles:
