@@ -38,14 +38,18 @@ function Carrousel(props) {
                     <img key={pic} className={showContent(i)} src={pic} alt='Bannière'/>
                 ))}
                 
-                <div className='banner_container_vector'>
-                    <i onClick={moveToPrevious} className="fa-solid fa-chevron-left"></i>
-                    <i onClick={moveToNext} className="fa-solid fa-chevron-right"></i>
-                </div>
-                
-                <p>
-                    {currentPicture +1}/{pictures.length}
-                </p>
+                { pictures.length > 1 && 
+                    <>
+                        <div className='banner_container_vector'>
+                            <i onClick={moveToPrevious} className="fa-solid fa-chevron-left"></i>
+                            <i onClick={moveToNext} className="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                        <p> 
+                            {currentPicture +1}/{pictures.length}
+                        </p>
+                    </>
+                }
             </div>
         </>
     );
