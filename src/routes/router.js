@@ -1,11 +1,11 @@
 import React from 'react';
-import HomePage from '../pages/HomePage';
+import Home from '../pages/Home/Home';
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer/Footer';
-import AccommodationPage from '../pages/AccomodationPage';
-import ErrorPage from '../pages/ErrorPage';
-import AboutPage from '../pages/AboutPage';
+import Accommodation from '../pages/Accomodation/Accomodation';
+import Error from '../pages/Error/Error';
+import About from '../pages/About/About';
 
 //Fonction pour copier la "navbar" et le "footer" , "outlet"
 //concerne toutes les nouvelles données qu'on ajoutera.
@@ -17,24 +17,23 @@ const HeaderFooterLayout = () => {
     </>
 }
 
-
 //Pour créer les routes.
 export const router = createBrowserRouter([
     {
-        errorElement:<ErrorPage/>,
+        errorElement:<Error/>,
         element: <HeaderFooterLayout />,
         children: [
             {
                 path: "/",
-                element : <HomePage />
+                element : <Home />
             },
             {
                 path: "/accomodation",
-                element: <AccommodationPage />
+                element: <Accommodation />
             },
             {
                 path:"/about",
-                element:<AboutPage/>
+                element:<About/>
             }
         ]
     }
