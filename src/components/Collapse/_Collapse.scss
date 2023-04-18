@@ -2,7 +2,7 @@
     width: 80%;
     margin: 0 auto 20px auto;
     border-radius: 5px;
-    @include hidden;
+    //@include hidden;
     @media screen and (max-width:800px) {
         &{
             @include marginLeftRight;
@@ -24,7 +24,7 @@
         background-color: $lightRed;
         height: 47px;
         border-radius: 5px;
-        @include hidden;
+        //@include hidden;
         @include flexBetween;
         @include font;
         color: $white;
@@ -54,8 +54,7 @@
         background-color: #F6F6F6;
         padding-top: 10px;
         padding-bottom: 10px;
-        transition: visibility 0.5s ease-in-out,opacity 0.5s ease-in-out,height 0.5s ease-in-out;
-        animation: slide-in 0.5s ease-in-out;
+        transition: visibility 0.2s ease-in-out,opacity 0.7s ease-in-out,height 0.5s ease-in-out;
         & > p{
             margin: 0;
         }
@@ -74,5 +73,6 @@
     opacity: 0;
     height: 0;
 }
+
 
 
